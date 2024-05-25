@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classroom</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+          <legend>Personal Details</legend>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" size="10">
+            <label for="mname">Middle name</label>
+            <input type="text" id="mname" size="10">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" size="10">
+            <br>
+            <br>
+            <label for="course">Select Course</label>
+            <select id="course" name="course" required>
+                <!-- what is this required used for -->
+            <option value="" disabled selected >select course</option>
+            <option value="BE">B.E/B.tech</option>
+            <option value="mtech">Mtech</option>
+            <option value="Bca">BCA</option>
+            <option value="mca">MCA</option>
+            <option value="phd">PHD</option>
+        </select>
+        <br>
+        <br>
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="gender" id="gender">Male<br>
+        <input type="radio" name="gender" id="gender">Female<br>
+        <input type="radio" name="gender" id="gender">Transgender<br>
+        <label for="dob">Date of Birth</label>
+        <input type="datetime-local" name="dob" id="dob">
+        <br>
+        <br>
+        <label for="phno">Mobile Number</label>
+        <input type="text" value="+91" id="phno" disabled size="2">
+        <input type="tel" name="" id="phno">    
+        <!-- why we always using name=" " in most of the part in this is forms normally whats the use of this and what is  the use of required at the end of the line  -->
+        <br>
+        <br>
+        <label for="adress">Address</label>
+        <textarea id="adress"  rows="5" placeholder="Enter you address in detail"></textarea>
+        <br>
+        <br>
+        <label for="mail">Email</label>
+        <input type="email" id="mail">
+        <br>
+        <br>
+        <label for="pass">Password :</label>
+        <input type="password"  name="" id="pass" required>
+        <br>
+        <br>
+        <label for="repass">Confirm Password :</label>
+        <input type="password"  name="" id="repass" required>
+        <br>
+        <br>
+        <label for="file">Select File</label>
+        <input type="file" id="file">
+        <br>
+        <br>
+        <input type="checkbox" name="" id="checkbox">
+        <label for="checkbox">I agree terms and conditions</label>
+        <br>
+        <br>
+        <button>Submit</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
