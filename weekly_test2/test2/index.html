@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+        }
+        #leftPane {
+            width: 20%;
+            overflow-y: auto;
+            border-right: 1px solid #ccc;
+        }
+        /* .iframeContainer {
+            display: block;
+            width: 100%;
+            
+            border: none;
+            text-decoration: none; 
+        } */
+        /* #rightPane {
+            width: 80%;
+            height: 100vh;
+            border: none;
+        } */
+    </style>
+</head>
+<body>
+    <div id="leftPane">
+        <hr>
+        <p>Project 1</p>
+        <hr>
+        <a href="resume.html" target="rightPane" >
+            <img src="resum.png" width="100%" height="150px"></img>
+        </a>
+        <hr>
+        <p>Project 2</p>
+        <hr>
+        <a href="catphoto.html" target="rightPane" >
+            <img src="cat.png" width="100%" height="150px"></img>
+        </a>
+        <hr>
+        <p>Project 3</p>
+        <hr>
+        <a href="form.html" target="rightPane" >
+            <img src="formm.png" width="100%" height="150px"></img>
+        </a>
+        <hr>
+        <p>Project 4</p>
+        <hr>
+        <a href="tribute.html" target="rightPane">
+            <img src="vk.png" width="100%" height="150px"></img>
+        </a>
+    </div>
+    <iframe width="80%" height="100%" name="rightPane"></iframe>
+</body>
+</html>
