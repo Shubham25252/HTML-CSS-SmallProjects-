@@ -1,0 +1,26 @@
+
+h2{
+    margin-right: 200px;
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.blog{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+p{
+    color: grey;
+}
+.video iframe{
+    display: block;
+    margin: auto;
+}
+.blog2{
+    margin-top:20px;
+    height: 70px;
+    margin-bottom:0px;
+}
